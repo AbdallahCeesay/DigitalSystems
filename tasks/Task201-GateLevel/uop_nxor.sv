@@ -13,4 +13,5 @@ and u3 (term0, invA, invB);
 and u4 (term3, A, B);
 or  u5 (Y, term0, term3);
 
+
 endmodule
