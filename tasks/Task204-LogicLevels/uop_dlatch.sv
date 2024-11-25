@@ -15,8 +15,10 @@ assign Y = OE ? yy : 1'bz;	// Y is High Impedance is OE == 0
 //Behavioural HDL
 always @(A, LE)			// Update if A or LE change
 begin
+
 	if (LE == 1'b1)		// Set yy to A if LE is equal to 1, otherwise latch (stay unchanged)
-		yy <= A;
+	yy <= A;
+	
 end
 
 endmodule
